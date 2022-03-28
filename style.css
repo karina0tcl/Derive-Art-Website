@@ -56,7 +56,7 @@
   }
 }
 
-.slideshow-container, .mySlides fade, .prev, .next, .dot {box-sizing:border-box}
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
