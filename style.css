@@ -2,8 +2,6 @@ body {
   background-color: white;
 }
 
-/* TOP NAV BAR */
-
 .topnav {
   position: relative;
   background-color: white;
@@ -61,8 +59,6 @@ body {
     transform: none;
   }
 }
-
-/* MAIN GALLERY */
 
 * {box-sizing:border-box}
 
