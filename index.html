@@ -102,11 +102,11 @@ img {vertical-align: middle;}
 }
 
 .topnav-left {
-  float: left;
+  float: none;
 }
 
 .topnav-right {
-  float: right;
+  float: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -194,7 +194,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 </script>
 
