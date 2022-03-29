@@ -94,7 +94,7 @@ img {vertical-align: middle;}
   color: #9b870c;
 }
 
-.topnav-centered a img {
+.topnav-centered a {
   float: none;
   position: absolute;
   top: 50%;
@@ -103,9 +103,19 @@ img {vertical-align: middle;}
 
 }
 
+.logo {
+  float: none;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
 .topnav-left {
   float: left;
-  padding: 100px 0 0 400px;
+  padding: 100px 0 0 350px;
 }
 
 .topnav-right {
@@ -165,7 +175,6 @@ img {vertical-align: middle;}
   clear: both;
   display: inline-block;
   float: left;
-  overflow: hidden;
   white-space: nowrap;
   font-size: 16px;
   padding: 50px 50px 50px 50px;
@@ -180,7 +189,7 @@ img {vertical-align: middle;}
   <div class="topnav">
 
         <div class="topnav-centered">
-          <a href="#logo" class="logo"><img src="images/logo.JPG" alt="Derive Art Logo" style="width:300px; height:100px;"></a>
+          <a href="#logo" class="logo"><img src="images/logo.JPG" alt="Derive Art Logo"></a>
         </div>
 
         <div class="topnav-left">
