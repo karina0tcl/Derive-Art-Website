@@ -5,7 +5,7 @@
  box-sizing: border-box;
 }
 body {
- font-family: 'Cinzel Decorative', cursive;
+ font-family: Georgia, serif;
 }
 a {
  text-decoration: none;
@@ -20,7 +20,7 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- margin: 100px
+ margin: 100px;
  background-color: #FFFFFF;
  color: #000080;
 }
@@ -29,6 +29,7 @@ li {
 }
 /* LOGO */
 .logo {
+ font-family: 'Cinzel Decorative', cursive;
  font-size: 42px;
 }
 /* NAVBAR MENU */
@@ -121,7 +122,7 @@ input[type=checkbox]:checked ~ .menu{
 /* Slideshow container */
 
 * {box-sizing: border-box;}
-body {font-family: 'Cinzel Decorative', cursive;}
+body {font-family: Georgia, serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
