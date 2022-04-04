@@ -20,12 +20,12 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- Margin: 0 0 100px 0;
+ Margin: 0 0 20px 0;
  background-color: #FFFFFF;
  color: #000080;
 }
 .nav-links a {
- color: #FFD700;
+ color: #000080;
 }
 /* LOGO */
 .logo {
@@ -40,7 +40,7 @@ li {
  font-family: Georgia, serif;
 }
 .menu li:hover {
- background-color: #4c9e9e;
+ background-color: #000080;
  border-radius: 5px;
  transition: 0.3s ease;
 }
@@ -68,7 +68,7 @@ li {
  text-align: center;
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: #000080;
 }
 .services:hover .dropdown {
  display: block;
@@ -116,7 +116,7 @@ input[type=checkbox]:checked ~ .menu{
  transform: translateX(35%);
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: #000080;
 }
 }
 
