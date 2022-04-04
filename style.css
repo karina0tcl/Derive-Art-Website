@@ -20,8 +20,9 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- background-color: #000080;
- color: #FFD700;
+ margin: 100px
+ background-color: #FFFFFF;
+ color: #000080;
 }
 .nav-links a {
  color: #FFD700;
@@ -34,7 +35,7 @@ li {
 .menu {
  display: flex;
  gap: 1em;
- font-size: 24px;
+ font-size: 18px;
 }
 .menu li:hover {
  background-color: #4c9e9e;
@@ -126,7 +127,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
