@@ -163,8 +163,7 @@ img {
   right: 0;
   top: 40%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  width: 35%;
-  height: 30%; /* Set the width of the positioned div */
+  width: 30%; /* Set the width of the positioned div */
 
 }
 
