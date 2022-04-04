@@ -126,7 +126,7 @@ input[type=checkbox]:checked ~ .menu{
 
 
 .mySlides {
-  display: none;
+  display: inline-block;
   position: relative;
 }
 
@@ -156,6 +156,13 @@ img {
   position: absolute;
   background-color: black;
   color: white;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 100%; /* Set the width of the positioned div */
 
 }
 
