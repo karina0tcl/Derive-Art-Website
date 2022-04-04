@@ -20,7 +20,7 @@ li {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- margin: 100px;
+ Margin: 0 0 100px 0;
  background-color: #FFFFFF;
  color: #000080;
 }
@@ -36,7 +36,8 @@ li {
 .menu {
  display: flex;
  gap: 1em;
- font-size: 18px;
+ font-size: 18px
+ font-family: Georgia, serif;
 }
 .menu li:hover {
  background-color: #4c9e9e;
